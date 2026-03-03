@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Lilita+One&display=swap');
+
+
+
+body{
+background-color: rgb(233, 231, 188);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Cabeçalho */
+
+header{
+    background-color: rgb(238, 228, 141);
+    color: rgb(255, 255, 255);
+    height: 60vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background: url("../img/a2.jpg") center;
+    background-size: cover;
+}
+
+
+/* Menu */
+
+.menu {
+    background-color: rgb(250, 248, 120);
+    justify-content: space-around;
+    display: flex;
+    padding: 3vh 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu li a{
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+}
+
+.menu ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu ul li{
+	padding: 0 6vw;
+    font-weight: bold;
+}
+
+.menu ul li a {
+    color: black;
+    font-size: 1.3em;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+}
+
+.hero p {
+    color: #34383b;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.button-group {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: rgb(238, 228, 141);
+    color: white;
+    color: black;
+}
+.btn-primary:hover {
+    background-color: rgb(218, 206, 99);
+}
+
+.btn-secondary {
+    background-color: rgb(238, 228, 141);
+    color: white;
+    color: black;
+}
+.btn-secondary:hover {
+    background-color: rgb(218, 206, 99);
+}
+
+/* Rodapé */
+
+footer{
+    background-color: rgb(209, 207, 103);
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
